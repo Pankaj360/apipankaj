@@ -1,0 +1,16 @@
+GET http://localhost:3000/instructors
+
+
+###
+
+POST http://localhost:3000/instructors
+Content-Type: application/json
+
+{
+
+  "name" : "Pankaj Bhagat",
+  "car"  : "Chevy Cruze 2015",
+  "price" : "$8000"
+
+}
+
